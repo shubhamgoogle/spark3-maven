@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/Users/shubu/IdeaProjects/shubhamgoogle/spark3-maven/src/main/scala/com/example/spark/SparkApplication.scala">
+  <error column="2" line="12" source="org.scalastyle.scalariform.VarFieldChecker" severity="info" message="Avoid mutable fields"/>
+ </file>
+</checkstyle>
