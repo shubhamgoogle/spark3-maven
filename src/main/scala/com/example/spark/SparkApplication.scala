@@ -23,7 +23,7 @@ object SparkApplication extends App{
   // Write to BQ table
   //Direct
   logger.info("Writing to BQ table: customer_data_direct using Spark BQ Connector DIRECT method")
-  df1.write.format("bigquery").option("writeMethod", "direct").mode("overwrite").save("dataproc_demo.customer_data2")
+  df1.write.format("bigquery").option("writeMethod", "direct").mode("overwrite").save("dataproc_demo.customer_data_direct")
   logger.info("Direct Write Completed Successfully")
 
 
